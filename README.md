@@ -13,6 +13,8 @@ Replace the Ethernet library files present in the Arduino IDE installation folde
 ## Usage
 
 ```cpp
+byte* mac;
+char hostname[] = "MY_HOSTNAME";
 Ethernet.begin(mac, hostname);
 ```
 ## License
